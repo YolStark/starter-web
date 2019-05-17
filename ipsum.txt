@@ -1,0 +1,97 @@
+
+Play
+1
+Current Time 03:33
+/
+Duration Time 11:27
+
+
+
+
+ 
+Mudo
+
+
+
+
+Bienvenido, en este video, voy a demostrar cómo agregar.
+
+Nuevos archivos a un repositorio Git. En primer lugar tengo algunas URLs.
+
+Que quiero llamar su atención. La primera es la URL bitly
+
+al repositorio de Git en GitHub que estamos usando.
+
+Si aún no lo ha hecho, vaya a esta URL y envíelo a su repositorio personal;
+
+Tengo un video anterior que cubre esto en detalle.
+
+Las siguientes dos URL serán donde obtengo el texto de relleno
+
+para este y otros videos para cubrir los conceptos básicos de Git;
+
+Ya que los archivos de origen son solo archivos de texto, cualquier tipo de texto servirá.
+
+Así que, empezando, voy a usar un poco de lorem ipsum como texto ficticio
+
+Para cubrir los conceptos básicos de Git. La primera URL es "meettheipsums.com",
+
+que es una colección de sitios web de ipsum lorem que puede obtener para el texto de relleno.
+
+El sitio web específico que usaré en esta demostración será "hipsum.co",
+
+que es el sitio web de Hipster Ipsum Ahora voy a pasar a mi terminal;
+
+Así que de vuelta en la terminal, actualmente estoy en el directorio de inicio de mi usuario.
+
+Por lo tanto, si hago un "pwd" y presiono enter, puedes ver que estoy en el directorio de inicio de mi usuario,
+
+que también es notado por el "~". Dentro del directorio de mi usuario, tengo un
+
+carpeta de "proyectos", así que voy a "proyectos de cd", y ahora voy a presionar enter.
+
+Y, si hago una "ls", puedes ver que tengo mi repositorio de "inicio-web".
+
+Así que ahora voy a ir allí; "cd starter-web".
+
+Ahora que estoy ahí, voy a aclarar. Ahora he modificado mi prompt
+
+para mostrar siempre la rama actual en mi repositorio Git,
+
+así que tu pantalla puede verse un poco diferente a la mía;
+
+Por favor, vea mi contenido extra sobre cómo hacer lo mismo para su entorno.
+
+Entonces, dentro del repositorio de Git, voy a hacer un "ls",
+
+así que ahora puedes ver todos los archivos que están en el directorio de trabajo,
+
+y, antes de hacer cualquier trabajo, voy a hacer un estado de Git.
+
+Entonces, pueden ver que estoy en la rama maestra, y que es
+
+"actualizado con 'origin / master'.", que es la referencia a mi
+
+Repositorio GitHub. Ya que no hemos hecho nada todavía.
+
+El directorio de trabajo está limpio, lo que significa que no hay nada que cometer.
+
+El comando "git status", avanzando, nos dirá la diferencia entre
+
+el directorio de trabajo, el área de preparación de Git, el repositorio real de Git
+
+que se encuentra en el sistema local, así como en la forma en que se compara con el repositorio remoto.
+
+Muy bien, ahora lo voy a borrar, y lo primero que quiero hacer es agregar un nuevo archivo.
+
+Y, para hacerlo, voy a usar mi editor de texto,
+
+que he configurado en una demostración anterior, que es TextMate.
+
+Entonces voy a escribir "mate", y lo llamaré "hipster.txt", presiona enter.
+
+Eso va a invocar TextMate, y está listo para un poco de texto.
+
+Entonces, voy a ir a mi navegador web, y ya tengo una pestaña
+
+Configuración en el sitio web de ipsum hipster. Los valores por defecto están bien,
